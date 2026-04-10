@@ -2,6 +2,7 @@ import Typed from "typed.js";
 import { useRef, useEffect } from "react";
 import HeroImg from "../assets/HeroImg2.png";
 import { Element, Link } from "react-scroll";
+import resume from "../../public/Dheetchith Selvan Resume.pdf";
 
 import gitHub from "../assets/github.svg";
 import LinkedIn from "../assets/linkedin.svg";
@@ -61,13 +62,15 @@ const Hero = () => {
               >
                 My works
               </Link>
-              <Link className="bg-white/80 text-black px-4 py-2 hover:bg-white/70 rounded-md cursor-pointer transition">
-                My Resume
-              </Link>
+              <button className="bg-white/80 text-black px-4 py-2 hover:bg-white/70 rounded-md cursor-pointer transition">
+                <a href={resume} download="resume-dheetchith">
+                  My Resume
+                </a>
+              </button>
             </div>
             <div className="flex gap-4">
               <a
-                href="https://github.com/dheetchithselvan12"
+                href="https://www.linkedin.com/in/dheetchithselvan"
                 className="w-fit p-1 bg-blue-500 hover:bg-blue-400 rounded-lg transition duration-500"
               >
                 <img src={LinkedIn} alt="LinkedIn" className=" w-6 invert" />
