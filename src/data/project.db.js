@@ -34,7 +34,7 @@ export const PROJECTS = [
     textColor: "text-gray-400",
     uses: ["ReacJS", "NodeJs", "Socket.io", "MongoDB"],
     links: {
-      view: "https://dheetchithselvan12.github.io/full-Stack-chat-app/",
+      view: "https://full-stack-chat-app-1-6dl6.onrender.com",
 
       source: "https://github.com/dheetchithselvan12/full-Stack-chat-app.git",
     },
